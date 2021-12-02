@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+mark.font_class_druid
+{
+    color:#FF7900;
+    background: none;
+}
+
+mark.font_class_hunter
+{
+    color:#1EFF00;
+    background: none;
+}
+
+mark.font_class_mage
+{
+    color:#00CEFF;
+    background: none;
+}
+
+mark.font_class_paladin
+{
+    color:#FF00AF;
+    background: none;
+}
+
+mark.font_class_priest
+{
+    color:#F01234;
+    background: none;
+}
+
+mark.font_class_rogue
+{
+    color:#EFE50F;
+    background: none;
+}
+
+mark.font_class_shaman
+{
+    color:#2D38DF;
+    background: none;
+}
+
+mark.font_class_warlock
+{
+    color:#1C76D9;
+    background: none;
+}
+
+mark.font_class_warrior
+{
+    color:#1C3643;
+    background: none;
+}
+
+.rasy_classy {
+    padding: 3px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
+
+.rasy_classy tr > * {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.png_classes {
+
+    position: relative;
+    max-height: 20px;
+    max-width: 20px;
+    /*max-height: 15%;*/
+    /*max-width: 15%;*/
+}
+
+.png_fractions {
+    position: relative;
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.png_races {
+    position: relative;
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.png_tick {
+    position: relative;
+    max-height: 20px;
+    max-width: 20px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    background-color: #123456;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.col-1 {width: 11.11%;}
+.col-2 {width: 22.22%;}
+.col-3 {width: 33.33%;}
+.col-4 {width: 44.44%;}
+.col-5 {width: 55.55%;}
+.col-6 {width: 66.66%;}
+.col-7 {width: 77.77%;}
+.col-8 {width: 88.88%;}
+.col-9 {width: 100%;}
+
+
+/*@media only screen and (max-width: 768px) {*/
+/*    [class*="col-"] {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+@media only screen and (max-width: 900px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+table tr {
+
+}

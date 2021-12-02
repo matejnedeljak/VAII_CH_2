@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+mark.red {
+    color:#FF0000;
+    background: none;
+}
+
+mark.blue {
+    color:#0059FF;
+    background: none;
+}
+
+.png_azeroth {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.png_blizzard {
+    width: 193px;
+    height: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*.header {*/
+/*    !*padding: 10px;*!*/
+/*    position: sticky;*/
+/*    top: 1px;*/
+/*    !*text-align: center;*!*/
+/*    !*background: #1abc9c;*!*/
+/*    !*color: white;*!*/
+/*    !*font-size: 30px;*!*/
+/*}*/
